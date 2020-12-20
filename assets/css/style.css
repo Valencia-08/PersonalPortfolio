@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.5;
+    filter: brightness(0%);
+    filter: contrast(25%);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav-bar {
+    list-style: none;
+    width: 300px;
+    height: 45px;
+    padding: 20px;
+    margin: auto;
+}
+
+.nav-bar li {
+    width: 30%;
+    float: left;
+    margin: 0 4px;
+    text-align: center;
+    height: 100%;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 5s ease;
+    
+}
+
+.nav-bar li:hover {
+    background: #fff;
+    color: black;
+}
+
+.nav-bar li.active
+{
+ background: black;
+ color: black;
+}
+
+.content
+{
+ text-align: center;
+ position: relative;
+ top: 50%;
+ letter-spacing: 2px;
+ transition: all 5s ease;
+}
+
+.content p {
+ margin-top: 10px;
+}
+
+.resume
+{
+ background-color: black;
+ color: #fff;
+ border-radius: 200px;
+ display: block;
+  width: 30%;
+  border: none;
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+}
+
+.button
+{
+ padding-top: 25px;
+}
+
+.share
+{
+ position: absolute;
+ right: 10px;
+ bottom: 10px;
+ list-style: none;
+}
+
+.share li
+{
+ float: left;
+ width: 50%;
+ padding: 15px;
+}
+
+
